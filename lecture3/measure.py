@@ -1,10 +1,13 @@
 
 
 import math
+import os
 import random
 import sys
 import time
 
+# merge_sort and quick_sort live in lecture2.
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "lecture2"))
 
 import heap_sort
 from sorts import merge_sort, quick_sort
